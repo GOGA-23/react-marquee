@@ -65,7 +65,7 @@ const Marquee: React.FC<MarqueeProps> = ({ children }) => {
 
   const renderMarquee = (isHidden: boolean) => (
     <div
-      className="animate-marquee flex snap-start items-center gap-3.5 select-none group-hover:paused transition-transform duration-500 ease-linear"
+      className="flex snap-start items-center gap-3.5 select-none transition-transform duration-500 ease-linear"
       aria-hidden={isHidden}
     >
       {children}
