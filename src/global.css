@@ -3,12 +3,17 @@
 @tailwind utilities;
 
 @layer utilities {
-  /* hide horizontal scroll bar */
-  .custom {
-    scrollbar-width: none;
-  }
   /* pause marquee on hover */
   .paused {
     animation-play-state: paused;
   }
+}
+
+/* hide horizontal scroll bar */
+.custom {
+  scrollbar-width: none;
+}
+
+.custom2::-webkit-scrollbar {
+  display: none;
 }

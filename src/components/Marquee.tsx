@@ -16,7 +16,7 @@ const Marquee: React.FC<MarqueeProps> = ({ children }) => {
 
   const styles = useMemo(
     () =>
-      `flex w-full p-5 gap-3.5 border-2 group snap-x snap-mandatory overflow-x-auto custom ${
+      `flex w-full p-5 gap-3.5 group snap-x snap-mandatory overflow-x-auto custom custom2 ${
         mouseDown
           ? "cursor-grabbing scroll-smooth transition-transform duration-500 ease-linear"
           : "cursor-pointer scroll-auto"
