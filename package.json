@@ -1,6 +1,6 @@
 {
   "name": "@webibee/react-marquee",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "this one is trailer version react-marquee library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -36,6 +36,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/GOGA-23/react-marquee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GOGA-23/react-marquee/issues"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.24.8",
