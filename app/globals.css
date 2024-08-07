@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* hide horizontal scroll bar */
+  .custom {
+    scrollbar-width: none;
+  }
+  /* pause marquee on hover */
+  .paused {
+    animation-play-state: paused;
+  }
+}
